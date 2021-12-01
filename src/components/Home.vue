@@ -5,6 +5,7 @@
     <div class="box-kaiqi"></div>
     <div class="box-bruce"></div>
     <div class="box-aimili"></div>
+    测试!
   </div>
 </template>
 
