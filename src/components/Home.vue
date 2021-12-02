@@ -9,6 +9,7 @@
 </template>
 
 <script setup>
+import { onMounted } from "vue"
 let obj = [
   { name: "123", age: 88, id: 1, pid: 0 },
   { name: "123", age: 88, id: 2, pid: 1 },
@@ -17,7 +18,7 @@ let obj = [
 ];
 
 onMounted(() => {
-  console.log("mounted");
+  console.log("mounted",1111111111);
 })
 </script>
 
