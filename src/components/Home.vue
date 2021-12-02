@@ -9,6 +9,16 @@
 </template>
 
 <script setup>
+let obj = [
+  { name: "123", age: 88, id: 1, pid: 0 },
+  { name: "123", age: 88, id: 2, pid: 1 },
+  { name: "90", age: 88, id: 3, pid: 1 },
+  { name: "90", age: 88, id: 4, pid: 3 },
+];
+
+onMounted(() => {
+  console.log("mounted");
+})
 </script>
 
 <style scoped >
