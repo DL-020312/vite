@@ -18,7 +18,12 @@ let obj = [
 ];
 
 onMounted(() => {
-  console.log("mounted",1111111111);
+  const xml = new XMLHttpRequest()
+  xml.open('get','https://mock.mengxuegu.com/mock/6191c4a0f126df7bfd5b76e7/example/query')
+  xml.send()
+  xml.onreadystatechange = ()=>{
+    console.log("这里",JSON.parse(xml.responseText));
+  }
 })
 </script>
 
