@@ -1,5 +1,4 @@
 <template>
-  <div id="tree"></div>
 </template>
 
 
